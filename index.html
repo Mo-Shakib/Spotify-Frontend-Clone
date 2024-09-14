@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/logo.png" />
+    <title>Spotify - Web Player: Music for everyone</title>
+  </head>
+  <body>
+    <div class="main">
+      <!-- Side bar -->
+      <div class="sidebar">
+        <div class="nav-bar">
+          <div class="nav-option" style="opacity: 1">
+            <i class="fas fa-home"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fas fa-search"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+
+        <!-- Library -->
+        <div class="library">
+          <div class="options">
+            <div class="lib-option nav-option">
+              <img src="./assets/library_icon.png" alt="" />
+              <a href="#">Your Library</a>
+            </div>
+            <div class="lib-icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="lib-box">
+            <div class="box-title">Create your first playlist</div>
+            <div class="box-details">It's easy, we'll help you</div>
+            <button class="badge">Create playlist</button>
+          </div>
+          <div class="lib-box">
+            <div class="box-title">Let's find some podcast to follow</div>
+            <div class="box-details">
+              We'll keep you updated on new episodes
+            </div>
+            <button class="badge">Browse podcasts</button>
+          </div>
+        </div>
+      </div>
+      <!-- Main Content -->
+      <div class="main-content">
+        <div class="stickyNav">
+          <!-- sticky nav here -->
+          <div class="stickynav-icons">
+            <img src="./assets/backward_icon.png" />
+            <img src="./assets/forward_icon.png" class="hide" />
+          </div>
+          <div class="stickynav-options">
+            <button class="badge hide">Explore Premium</button>
+            <button class="badge dark-badge">
+              <i
+                class="fa-regular fa-circle-down dark"
+                style="margin-right: 0.3rem"
+              ></i
+              >Install App
+            </button>
+            <i class="fa-solid fa-user"></i>
+          </div>
+        </div>
+
+        <!-- cards here -->
+        <h2 style="padding: 1rem 0rem 1rem 0rem">Recently Played</h2>
+        <div class="card-container">
+          <!-- Card -->
+          <div class="card">
+            <img src="./assets/card1img.jpeg" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">
+              Your daily updates of the most palyed tracks
+            </p>
+          </div>
+        </div>
+
+        <h2 style="padding: 1rem 0rem 1rem 0rem">Featured Charts</h2>
+        <div class="cards-container">
+          <!-- Card -->
+          <div class="card">
+            <img src="./assets/region_global_default (1).jpg" class="card-img" />
+            <p class="card-title">Viral 50 - Global</p>
+            <p class="card-info">
+              Your daily updates of the most palyed tracks
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/region_global_default.jpg" class="card-img" />
+            <p class="card-title">Top Songs Global</p>
+            <p class="card-info">
+              Your daily updates of the most palyed tracks
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/region_us_default (1).jpg" class="card-img" />
+            <p class="card-title">Viral 50 - USA</p>
+            <p class="card-info">
+              Your daily updates of the most palyed tracks
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/region_us_default.jpg" class="card-img" />
+            <p class="card-title">Top Songs - USA</p>
+            <p class="card-info">
+              Your daily updates of the most palyed tracks
+            </p>
+          </div>
+        </div>
+
+        <h2 style="padding: 1rem 0rem 1rem 0rem">Trending now near you</h2>
+        <div class="cards-container">
+          <!-- Card -->
+          <div class="card">
+            <img src="./assets/card2img.jpeg" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">
+              Your daily updates of the most palyed tracks
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/card3img.jpeg" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">
+              Your daily updates of the most palyed tracks
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/card4img.jpeg" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">
+              Your daily updates of the most palyed tracks
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/card5img.jpeg" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">
+              Your daily updates of the most palyed tracks
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/card6img.jpeg" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">
+              Your daily updates of the most palyed tracks
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/card4img.jpeg" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">
+              Your daily updates of the most palyed tracks
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/card4img.jpeg" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">
+              Your daily updates of the most palyed tracks
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/card4img.jpeg" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">
+              Your daily updates of the most palyed tracks
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/card4img.jpeg" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">
+              Your daily updates of the most palyed tracks
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <!-- Music Player -->
+      <div class="music-player">Music Player</div>
+    </div>
+  </body>
+</html>
